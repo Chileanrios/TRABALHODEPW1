@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="stylecontato.css">
+	<link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+	<title>Escola de Inglês | Contato</title>
+</head>
+<body>
+
+    <header id="cab">
+        <h1 id="logotipo">Escola de Inglês</h1>
+        <nav id="navbar">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Modulos.html">Modulos</a></li>
+            <li><a href="Contato.html" id="flh3" class="active">Contato</a></li>
+        </nav>
+    </header>s
+
+	<br class="fixFloat">
+
+	<section id="contato">
+
+		<form name="fContato" method="post" action="#">
+			
+			<p>
+				<label>Nome</label>
+				<input class="a" type="text" maxlength="50" size="60" name="fNome" autofocus required>
+			</p>
+			<p>
+				<label>Telefone de contato</label>
+				<input class="a" type="tel" maxlength="15" size="20" name="fFone" placeholder=" (xx) xxxx-xxxx" required>
+			</p>
+			<p>
+				<label>Email de contato</label>
+				<input class="a" type="email" maxlength="50" size="60" name="fEmail" required>
+			</p>
+			<p>
+				<label>Cep</label>
+				<input class="a" type="text" maxlength="10" size="15" name="fCep" placeholder="xxxxx-xxx" pattern="\d{5}-?\d{3}" required>
+			</p>
+			<p>
+				<label>Módulo pretende iniciar</label>
+				<input class="a" type="number" min="1" max="10" step="1" value="1" name="fModulo" required>
+			</p>
+			<p>
+				<label>Horário de Início</label>
+				<input class="a" type="time" value="10:00" step="1800" name="fHorario" required>
+			</p>
+			<p>
+				<label>Cor da sua pasta</label>
+				<input class="a" type="color" value="#008800" name="fCor" required>
+			</p>
+			<p>
+				<label>Data de Nascimento</label>
+				<input class="a" type="date" name="fNascimento" required>
+			</p>
+			<p>
+				<input type="submit" class="botaosemacento" value="Enviar">
+				<input type="reset" class="botaosemacento" value="Limpar">
+			</p>
+			
+
+		</form>
+
+
+	</section>
+
+	<br class="fixFloat">
+
+    <footer>
+        <h3>Feito por</h3>
+        <p>Sophia Hodziesz</p>
+        <p>Nicolas Vasco</p>
+        <p>Rafael Augusto</p>
+        <p>Nickolas Acuña</p>
+    </footer>
+</body>
+</html>
+		

@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: poppins;
+    background-color: #cfcfcf;
+}
+
+#cab{
+    background: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    width: 87.5vw;
+    margin: 10px 20px 0px;
+    border-radius: 20px;
+}
+
+#logotipo{
+    cursor: pointer;
+    height: 50px;
+    color: #0088a9;
+    background-color: #24252A;
+}
+
+#navbar{
+    display: flex;
+    font-weight: 700;
+}
+
+li{
+    list-style: none;
+    background-color: #24252A;
+}
+
+a{
+    padding: 7px;
+    font-size: 20px;
+    margin-right: 50px;
+    color: #ebebeb;
+    text-decoration: none;
+    background-color: #24252A;
+    transition: ease-in .2s;
+}
+
+#flh3{
+    padding: 7px;
+    font-size: 20px;
+    color: #ebebeb;
+    text-decoration: none;
+    background-color: #24252A;
+    transition: ease-in .2s;
+}
+
+#flh3:hover{
+    color: #0088a9;
+}
+
+a:hover,
+a.active{
+    color: #0088a9;
+}
+
+details{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 1000px;
+    cursor: pointer;
+}
+
+details summary::marker {
+    content: '※  ';
+}
+
+details p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+summary{
+    height: 26px;
+    background-color: #24252A;
+    font-weight: 600;
+    padding: 3px 0px 3px 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+details[open] summary{
+    border-radius: 10px;
+    background: #0088a9;
+    color: whitesmoke;
+    transition: .3s;
+}
+
+footer {
+    display: block;
+    margin: auto;
+    width: 1000px;
+    color:#666666;
+    border:#000 solid 1px;
+}
+
+footer h3{
+    text-align: center;
+    margin: 4px 0px 1px 0px;
+}
+
+footer p {
+    display:inline-block;
+    width: 220px;
+    text-align:center;
+    padding: 10px;
+}
